@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #aaddff;
+}
+
+.stopwatch {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#display {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #333;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 12px 26px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
+
+.stopwatch-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-btns button:not(:last-child) {
+  margin-right: 20px;
+}
+
+
+
+
